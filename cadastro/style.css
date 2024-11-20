@@ -70,3 +70,27 @@ button:hover {
   background-color: #0056b3;
 }
 
+.clique-voltar {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: left;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none; /* Remove o sublinhado */
+  color: white;        /* Faz com que a cor do texto herde do elemento pai */
+  display: inline-block;
+  padding: 10px 20px;    /* Espaçamento interno */
+  border-radius: 5px;    /* Bordas arredondadas */
+  font-weight: bold;     /* Deixa o texto em negrito */
+  transition: background-color 0.3s; /* Efeito de transição */
+
+}
+
+a:hover {
+  background-color: #2575fc; /* Muda a cor de fundo ao passar o mouse */
+}

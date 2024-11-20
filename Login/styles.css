@@ -69,6 +69,16 @@ button:hover {
 
 }
 
+.clique-cadastro, a {
+    margin-top: 10%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.clique-cadastro a:hover {
+    text-decoration: underline; /* Opcional: adiciona sublinhado ao passar o mouse */
+}
 input {
     width: 100%;
     padding: 10px 40px 10px 40px;

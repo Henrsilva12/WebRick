@@ -12,28 +12,26 @@
             <h1>Cadastro do Usuário</h1>
             <form>
                 <!-- Nome -->
-                <label for="name">Nome completo: </label>
-                <input type="text" id="name" name="name" placeholder="Digite seu nome completo" required>
-                <!-- Email -->
-                <label for="email">E-mail: </label>
-                <input type="email" id="email" name="email" required placeholder="Digite seu email" required>
+                <label for="username">Usuário: </label>
+                <input required ="text" id="username" name="username" placeholder="Digite seu usuário">
                 <!-- Senha -->
                 <label for="password">Senha: </label>
-                <input type="password" id="password" name="password" placeholder="Digite sua senha" style="display: none;" required>
-                <input required ="text" id="password-display" placeholder="Digite sua senha">
+                <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+                <!--<input required ="text" id="password-display" placeholder="Digite sua senha"-->
                 <!-- Senha de confirmação -->
-                <label for="confirmPassword">Confirmar senha: </label>
-                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirme sua senha" style="display: none;" required>
-                <input required ="text" id="password-display" placeholder="Confirme sua senha">
+                <label for="passwordconf">Confirmar senha: </label>
+                <input type="password" id="passwordconf" name="password" placeholder="Confirme sua senha" required>
+                <!--<input required ="text" id="password-display" placeholder="Confirme sua senha">-->
+
                 <!-- Botão -->
-                 
-                <a href="../Home/home.html">
-                    <button>Cadastrar</button>
-                </a>
-                
+                <button type="submit">Cadastrar</button>
             </form>
+            
+            <div class="clique-voltar">
+                <a href="../Login/login.html">⬅️ Voltar</a>
+            </div>
         </div>
-        <script src="script.js"></script>
-        <script src="password.js"></script>
+        <script src="/JavaScript/script.js"></script>
+        <script src="/JavaScript/cadastro.js"></script>
 </body>
 </html>

@@ -1,5 +1,6 @@
 const passwordInput = document.getElementById('password');
 const passwordDisplay = document.getElementById('password-display');
+const passwordConfDisplay = document.getElementById('passwordconf-display');
 
 // Armazena o valor real da senha em uma variável separada
 let realPassword = "";
