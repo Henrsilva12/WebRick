@@ -5,9 +5,15 @@ document.querySelector('.login-form').addEventListener('submit', function(event)
     const password = document.getElementById('password').value.trim();
     
     if(username === 'username' && password === 'username'){
-        window.location.href = 'home.html';
+        console.log('verificando username e password')
+        alert('Por favor, preencha todos os campos.');
     }
-    else {
+    else if(username !== 'username' || password !== 'username') {
         alert('Usuário ou senha não reconhecidos.')
     }
+    else {
+        window.location.href = 'home.html';
+
+    }
+
 });
