@@ -10,7 +10,7 @@ document.querySelector('.cadastro-form').addEventListener('submit', function (ev
     localStorage.setItem("password", password);
     localStorage.setItem("passwordConfirm", passwordconf);
 
-    window.location.href = 'home.html';
+    window.location.href = '/Home/home.html';
   }else {
     alert('Verifique se as senhas estão iguais.');
   }

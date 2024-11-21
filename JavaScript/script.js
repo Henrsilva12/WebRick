@@ -8,7 +8,7 @@ document.querySelector('.login-form').addEventListener('submit', function(event)
     const storedPassword = localStorage.getItem("password");
 
     if(username === storedUsername && password === storedPassword){
-       window.location.href = "home.html";
+       window.location.href = "/Home/home.html";
     } else {
         alert("Verifique se o usuário ou a senha estão corretos.");
     }
